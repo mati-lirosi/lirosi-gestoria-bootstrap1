@@ -5,20 +5,13 @@ body{ background-image: url("../assets/img/fondo.jpg"); assets/imgfondo.jpg
 
 
 
-.nav{display:inline-flex ;
+.navbar-nav{display:inline-flex ;
     font-family:sans-serif;
 
 
- 
-    background: #99CC66;
-padding-bottom: 10px;
-padding-top: 10px; 
-border-radius: 18px;
+}
 
 
-}
-.nav-link{color: black;
-}
 
 .contactBody{
     background-color: ;
@@ -268,14 +261,7 @@ margin-right:50px ;
    justify-content: center;
     color: navajowhite;
     padding-top: 15px;
-    padding-bottom:15px ;
-
-
-}
-.gps{display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    
+    padding-bottom:15px ;    
   
 }
 
@@ -311,6 +297,23 @@ margin-right:50px ;
 .video-tramites{  display: flex;
     flex-wrap: wrap;
     justify-content: center    ;}
+
+    .grid-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+  grid-gap: 5px;
+  justify-items: right;
+  align-items: right;
+  padding-left: 50px;
+}
+
+.grid-item1 {
+  background: grey;
+  text-align: center;
+  border: black 5px solid;
+  width: 100px;
+  height: 100px;
+}
 
 @media only screen and (min-width: 769px)  and (max-width: 800px) {
 }
