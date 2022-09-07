@@ -19,9 +19,10 @@ margin-bottom: 60px;
 
 
 .container-footer{background-color: yellow;
-
-    padding-top: 20px;
-    padding-bottom: 20px;
+ justify-content: center;
+    margin-left: 15px;
+    text-align: center;
+    padding: 75px;
 
  
 
@@ -31,8 +32,8 @@ margin-bottom: 60px;
     flex-wrap: wrap;
     justify-content: center;
     padding-left: 15px;}
-    
-.boton-redes{padding-left: 200px;
+
+.boton-redes{padding-left: 400px;
   
 
 }
@@ -43,11 +44,11 @@ margin-bottom: 60px;
 padding-right: 5px; 
 margin-bottom: 100px;
 }
-.conteiner-footer{background-color: yellow;
-   align-content: center;
+.container-footer{background-color: yellow;
+   padding-left: 40px;
 
-  padding-left: 20px;
-    margin-left: 5px;
+    padding-top: 20px;
+    padding-bottom: 20px;
 
 
 }
